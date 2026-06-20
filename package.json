@@ -1,1 +1,6 @@
-{"scripts":{"start":"./pocketbase serve --http=0.0.0.0:$PORT"}}
+{
+  "scripts": {
+    "build": "chmod +x ./pocketbase",
+    "start": "./pocketbase serve --http=0.0.0.0:$PORT"
+  }
+}
